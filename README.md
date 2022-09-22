@@ -1,2 +1,2 @@
 # Personal_Page
-Yian's personal page with barebones HTML,CSS,JS
+Yian's personal page with HTML,CSS,JS, and bootstrap
