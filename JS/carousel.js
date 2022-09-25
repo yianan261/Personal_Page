@@ -17,7 +17,7 @@ const intro = [
 
 const descriptions = [
   "Full-stack web application that engages with NASA Mars rovers APIs",
-  "React wep to-do list web application with history-query feature",
+  "React to-do list web application with history-query feature",
   "Full-stack web application that encodes secret messages in images using LSB pixel encryption",
   "React e-commerce web application",
   "Reactive programming project on Observablehq notebook",
@@ -37,6 +37,7 @@ const imageList = images.map((img) => `./images/${img}`);
 let currImage = 0;
 
 let next = document.getElementById("forward");
+// let nextPress = document.querySelector(".move-right");
 let prev = document.getElementById("backward");
 let introText = document.getElementById("about-project");
 let introDesc = document.getElementById("about-description");
@@ -53,7 +54,7 @@ if (click === false) {
 /**
  * function that moves to the next slide of the carousel on click, as well as description
  */
-next.addEventListener("click", function () {
+let moveRight = () => {
   if (currImage < imageList.length - 1) {
     currImage += 1;
   } else {
@@ -75,12 +76,16 @@ next.addEventListener("click", function () {
     .slice(currImage, currImage + 1)
     .map((txt) => txt);
   introDesc.innerHTML = aboutDesc;
+};
+
+next.addEventListener("click", function () {
+  moveRight();
 });
 
 /**
  * function that moves to the previous slide of the carousel on click, as well as description
  */
-prev.addEventListener("click", function () {
+let moveLeft = () => {
   if (currImage > 0) {
     currImage -= 1;
   } else {
@@ -102,4 +107,16 @@ prev.addEventListener("click", function () {
     .slice(currImage, currImage + 1)
     .map((txt) => txt);
   introDesc.innerHTML = aboutDesc;
+};
+
+prev.addEventListener("click", function () {
+  moveLeft();
 });
+
+// nextPress.addEventListener("keydown", (evt) => {
+//   console.log(evt);
+//   if (evt.keyCode === 39) {
+//     moveRight();
+//     console.log("MOVE LEFT");
+//   }
+// });
