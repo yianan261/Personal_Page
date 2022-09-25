@@ -37,3 +37,15 @@ body {
 .nav-link:hover {
   color: #b98c5f;
 }
+
+.main-img {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.center-img {
+  transform: scale(0.8);
+  height: 400px;
+  position: fixed;
+}
