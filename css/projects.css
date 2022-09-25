@@ -1,0 +1,103 @@
+body {
+  background: #faedcd;
+}
+
+* {
+  font-family: "Poppins", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.navbar-brand,
+.nav-link {
+  color: #deb489;
+  padding-left: 5%;
+  font-smooth: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.navbar-brand {
+  font-size: 5em;
+  font-weight: 2;
+  padding-right: 3%;
+}
+
+.navbar-brand:hover {
+  color: #deb489;
+}
+.nav-link {
+  font-size: 2rem;
+  font-weight: 200;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.nav-link:hover {
+  color: #b98c5f;
+}
+
+.project-div {
+  display: flex;
+  justify-content: center;
+  padding-top: 10%;
+}
+
+#carousel-img {
+  width: 1200px;
+  height: 600px;
+  border-radius: 10px 10px 10px 10px;
+}
+
+@media (max-width: 1000px) {
+  #carousel-img {
+    width: 900px;
+    height: 450px;
+    border-radius: 10px 10px 10px 10px;
+    padding-top: 5%;
+  }
+}
+@media (max-width: 800px) {
+  #carousel-img {
+    width: 700px;
+    height: 350px;
+    border-radius: 10px 10px 10px 10px;
+    padding-top: 15%;
+  }
+}
+
+#forward {
+  color: #d4a373;
+  display: flex;
+  align-self: center;
+  padding-left: 5px;
+}
+
+#forward:hover {
+  cursor: pointer;
+  color: #e6ad9f;
+}
+#backward {
+  color: #d4a373;
+  display: flex;
+  align-self: center;
+  padding-left: 5px;
+}
+
+#backward:hover {
+  cursor: pointer;
+  color: #e6ad9f;
+}
+
+.text-about-project {
+  display: flex;
+  justify-content: center;
+}
+
+#about-project {
+  font-weight: 200;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: #564430;
+  padding-top: 2%;
+}

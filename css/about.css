@@ -44,7 +44,7 @@ body {
 
 #headingGroup {
   /* margin: auto; */
-  padding-top: 20%;
+  padding-top: 30%;
   font-weight: 200;
 }
 
@@ -76,7 +76,7 @@ nav.scrolled {
 #fact-button {
   background: #ccd5ae;
   margin: 10px;
-  padding: 15px 45px;
+  padding: 15px 40px;
   text-align: center;
   text-transform: uppercase;
   transition: 0.5s;
@@ -96,4 +96,13 @@ nav.scrolled {
 .button-div {
   display: flex;
   justify-content: center;
+}
+
+.clicked {
+  padding-top: 5%;
+}
+
+#fact-text {
+  font-weight: 200;
+  font-size: 20px;
 }
