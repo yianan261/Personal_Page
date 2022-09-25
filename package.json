@@ -1,0 +1,22 @@
+{
+  "name": "yian_page",
+  "version": "1.0.0",
+  "description": "Yian's personal page with HTML,CSS,JS, and bootstrap",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yianan261/Personal_Page.git"
+  },
+  "author": "Yian Chen",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/yianan261/Personal_Page/issues"
+  },
+  "homepage": "https://github.com/yianan261/Personal_Page#readme",
+  "devDependencies": {
+    "eslint": "^8.24.0"
+  }
+}
