@@ -5,7 +5,7 @@ const facts = [
   "I grew up in Taiwan, Singapore, and China",
   "I play the piano and used to play the cello",
   "Mandarin is my native tongue",
-  "I value family and friendships",
+  "I value family, friendships, and good ideas",
   "I'm a huge fan of matcha",
   "I have a younger brother",
   "I like to bake",
