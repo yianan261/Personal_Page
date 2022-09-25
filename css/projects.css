@@ -49,6 +49,10 @@ body {
   border-radius: 10px 10px 10px 10px;
 }
 
+#carousel-img:hover {
+  cursor: pointer;
+  box-shadow: rgba(146, 84, 53, 0.24) 0px 3px 8px;
+}
 @media (max-width: 1000px) {
   #carousel-img {
     width: 900px;
@@ -90,8 +94,8 @@ body {
 }
 
 .text-about-project {
-  display: flex;
-  justify-content: center;
+  display: block;
+  align-items: center;
 }
 
 #about-project {
@@ -100,4 +104,20 @@ body {
   -moz-osx-font-smoothing: grayscale;
   color: #564430;
   padding-top: 2%;
+}
+
+#about-description {
+  font-weight: 200;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: #564430;
+  font-size: 20px;
+}
+
+.text-description {
+  font-weight: 200;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: #564430;
+  padding-top: 5px;
 }

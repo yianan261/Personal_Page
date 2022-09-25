@@ -4,6 +4,8 @@ body {
 
 * {
   font-family: "Poppins", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 .navbar-brand,
@@ -35,14 +37,30 @@ body {
   color: #b98c5f;
 }
 
-.main-img {
-  display: flex;
-  justify-content: center;
-  align-items: flex-start;
+.contact-title {
+  font-size: 2rem;
+  font-weight: 200;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: #9f7a54;
 }
 
-.center-img {
-  transform: scale(0.8);
-  height: 400px;
-  position: fixed;
+.contact-div {
+  display: flex;
+  justify-content: center;
+  padding-top: 20%;
+}
+
+.block {
+  display: flex;
+  justify-content: center;
+  padding-top: 2%;
+}
+
+.LinkedIn-div,
+.Twitter-div,
+.GitHub-div,
+.Email-div {
+  padding-left: 10px;
+  padding-right: 10px;
 }
