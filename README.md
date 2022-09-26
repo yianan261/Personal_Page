@@ -9,7 +9,7 @@ A personal webpage that introduces briefly about myself. I included creative add
 # About Page
 The About page consists of a button which generates facts about me randomly when users click on it, it is a little interactive feature done with Javascript, HTML, and CSS.
 ![Screen Shot 2022-09-25 at 8 46 03 PM](https://user-images.githubusercontent.com/101501539/192189912-9528b885-451f-4827-8b93-67da95fb747a.png)
-![Screen Shot 2022-09-25 at 8 47 46 PM](https://user-images.githubusercontent.com/101501539/192190071-04810100-fb4b-4d54-ab3d-648457f06b41.png)
+![Screen Shot 2022-09-25 at 8 55 31 PM](https://user-images.githubusercontent.com/101501539/192190844-af061348-2441-404f-b7ea-538e2cbbfbf9.png)
 <br>
 
 # Projects Page
