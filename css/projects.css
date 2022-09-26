@@ -36,6 +36,13 @@ body {
 .nav-link:hover {
   color: #b98c5f;
 }
+nav {
+  transition: background 0.5s; /* control how smooth the background changes */
+}
+
+nav.scrolled {
+  background: #fefae0;
+}
 
 .project-div {
   display: flex;

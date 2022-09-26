@@ -59,8 +59,6 @@ body {
 }
 
 nav {
-  height: 100px;
-  width: 100%;
   transition: background 0.5s; /* control how smooth the background changes */
 }
 
