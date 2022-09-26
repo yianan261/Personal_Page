@@ -8,6 +8,7 @@ A personal webpage that introduces briefly about myself. I included creative add
 <br>
 # About Page
 The About page consists of a button which generates facts about me randomly when users click on it, it is a little interactive feature done with Javascript, HTML, and CSS.
+<br>
 ![Screen Shot 2022-09-25 at 8 46 03 PM](https://user-images.githubusercontent.com/101501539/192189912-9528b885-451f-4827-8b93-67da95fb747a.png)
 ![Screen Shot 2022-09-25 at 8 55 31 PM](https://user-images.githubusercontent.com/101501539/192190844-af061348-2441-404f-b7ea-538e2cbbfbf9.png)
 <br>
@@ -15,11 +16,13 @@ The About page consists of a button which generates facts about me randomly when
 # Projects Page
 The Projects page has a main carousel built with vanilla Javascript, CSS, and HTML, which users can click to see some of my selected projects.
 The images are clickable and redirects users to the Github repositories of the projects
+<br>
 ![Screen Shot 2022-09-25 at 8 48 09 PM](https://user-images.githubusercontent.com/101501539/192190108-f2586745-a4b1-487e-914b-994d770e7634.png)
 <br>
 
 # Contact Page
 The Contact page is for users to reach me
+<br>
 ![Screen Shot 2022-09-25 at 8 49 46 PM](https://user-images.githubusercontent.com/101501539/192190279-6930ade4-1c97-49a8-9a48-9308901ed5bb.png)
 <br>
 
