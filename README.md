@@ -3,6 +3,10 @@
 
 A personal webpage that introduces briefly about myself. I included creative addition of a random-fact generating button that would show facts about me when visitors click on it. The landing page is a simple, minimalistic page with navbar of menus of the webpage, and a picture of me, since it is a personal webpage. The navbar contains a section for About, Projects, and Contact, and Home. The About page contains a little information about myself, the Projects page consists of a carousel of images of some of my past projects. The Contact page contains some ways the visitors can contact me. The style of the personal page is minimal and simple.
 
+# Design Documents
+
+### Design documents, including use cases, user stories, objectives, and mockups [here](https://docs.google.com/document/d/1DQe-yJUA-UzZm5EzqGgCUKMsGYC4UFH1zV7ZUit7hFk/edit)
+
 # Home Page
 ![Screen Shot 2022-09-25 at 8 45 23 PM](https://user-images.githubusercontent.com/101501539/192189848-8a6edc57-1b04-43ec-b8c2-83ff463159f5.png)
 <br>
@@ -25,10 +29,6 @@ The Contact page is for users to reach me
 <br>
 ![Screen Shot 2022-09-25 at 8 49 46 PM](https://user-images.githubusercontent.com/101501539/192190279-6930ade4-1c97-49a8-9a48-9308901ed5bb.png)
 <br>
-
-# Design Documents
-
-Design documents, including use cases, user stories, objectives, and mockups [here](https://docs.google.com/document/d/1DQe-yJUA-UzZm5EzqGgCUKMsGYC4UFH1zV7ZUit7hFk/edit)
 
 # Requirements
 
