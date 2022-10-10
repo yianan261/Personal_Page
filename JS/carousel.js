@@ -37,7 +37,6 @@ const imageList = images.map((img) => `./images/${img}`);
 let currImage = 0;
 
 let next = document.getElementById("forward");
-// let nextPress = document.querySelector(".move-right");
 let prev = document.getElementById("backward");
 let introText = document.getElementById("about-project");
 let introDesc = document.getElementById("about-description");
@@ -78,9 +77,7 @@ let moveRight = () => {
   introDesc.innerHTML = aboutDesc;
 };
 
-next.addEventListener("click", function () {
-  moveRight();
-});
+next.addEventListener("click", () => moveRight());
 
 /**
  * function that moves to the previous slide of the carousel on click, as well as description
@@ -109,14 +106,14 @@ let moveLeft = () => {
   introDesc.innerHTML = aboutDesc;
 };
 
-prev.addEventListener("click", function () {
-  moveLeft();
-});
+prev.addEventListener("click", () => moveLeft());
 
-// nextPress.addEventListener("keydown", (evt) => {
-//   console.log(evt);
-//   if (evt.keyCode === 39) {
-//     moveRight();
-//     console.log("MOVE LEFT");
-//   }
-// });
+window.addEventListener("keydown", (evt) => {
+  console.log("keydown event ", evt);
+  if (evt.key === "ArrowLeft") {
+    moveLeft();
+  }
+  if (evt.key === "ArrowRight") {
+    moveRight();
+  }
+});

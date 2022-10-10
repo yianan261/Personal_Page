@@ -51,8 +51,8 @@ nav.scrolled {
 }
 
 #carousel-img {
-  width: 1200px;
-  height: 600px;
+  width: 70vw;
+  height: 60vh;
   border-radius: 10px 10px 10px 10px;
 }
 
