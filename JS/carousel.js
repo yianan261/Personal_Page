@@ -1,5 +1,6 @@
 const images = [
   "mars.jpg",
+  "career.png",
   "Taskmaster.jpg",
   "stego.jpg",
   "preorder.jpg",
@@ -8,6 +9,7 @@ const images = [
 ];
 const intro = [
   "Mars Roverland",
+  "Career Helper App",
   "TaskMaster",
   "Steganography",
   "Preorder Website",
@@ -16,16 +18,18 @@ const intro = [
 ];
 
 const descriptions = [
-  "Full-stack web application that engages with NASA Mars rovers APIs",
-  "React to-do list web application with history-query feature",
-  "Full-stack web application that encodes secret messages in images using LSB pixel encryption",
-  "React e-commerce web application",
-  "Reactive programming project on Observablehq notebook",
-  "Decentralized full-stack web application for users to create/mint/trade NFTs",
+  "Full-stack web application that engages with NASA Mars rovers APIs. <br><i> Tech Stack</i> : Spring Boot, React, MySQL, Hibernate <br> <i>Languages/Tools</i> : Java, Javascript, SQL, HTML, CSS",
+  "Full-stack web application that helps users plan careers and track application progress <br><i> Tech Stack</i> : Express.js, Node.js, MongoDB <br> <i> Languages/Tools</i> : Javascript, HTML, CSS",
+  "React to-do list web application with history-query feature <br><i> Tech Stack</i> : React, Minimongo <br> </i>Languages/Tools</i> : Javascript, HTML, CSS",
+  "Full-stack web application that encodes secret messages in images using LSB pixel encryption <br><i> Tech Stack</i> : Spring Boot, React, MySQL, Hibernate <br> <i>Languages/Tools</i> : Java, Javascript, SQL, HTML, CSS",
+  "React e-commerce web application <br><i> Tech Stack</i> : React <br><i> Languages/Tools</i> : Javascript, HTML, CSS ",
+  "Reactive programming project on Observablehq notebook <br><i> Languages/Tools</i> : Observable notebook, Javascript, HTML",
+  "Decentralized full-stack web application for users to create/mint/trade NFTs <br><i> Tech Stack</i> : React, Hardhat, Meter Sidechain, Ethereum, IPFS <br><i> Languages/Tools</i> : Solidity, Javascript, Ethers.js, HTML, CSS",
 ];
 
 const links = [
   "https://github.com/CS5500-NEU-Group10/NASA-Mars-Rover",
+  "https://github.com/yianan261/Career_Helper_App",
   "https://github.com/yianan261/taskmaster-app",
   "https://github.com/veraxpq/graph_encryption_backend",
   "https://github.com/yianan261/Preorder-WebApp",
@@ -109,7 +113,7 @@ let moveLeft = () => {
 prev.addEventListener("click", () => moveLeft());
 
 window.addEventListener("keydown", (evt) => {
-  console.log("keydown event ", evt);
+  // console.log("keydown event ", evt);
   if (evt.key === "ArrowLeft") {
     moveLeft();
   }

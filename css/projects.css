@@ -114,6 +114,10 @@ nav.scrolled {
 }
 
 #about-description {
+  width: 50rem;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
   font-weight: 200;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -122,6 +126,7 @@ nav.scrolled {
 }
 
 .text-description {
+  width: 60%;
   font-weight: 200;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
