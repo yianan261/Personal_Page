@@ -1,5 +1,6 @@
 const images = [
   "mars.jpg",
+  "tutorApp.png",
   "career.png",
   "Taskmaster.jpg",
   "stego.jpg",
@@ -9,6 +10,7 @@ const images = [
 ];
 const intro = [
   "Mars Roverland",
+  "Tutor Match App",
   "Career Helper App",
   "TaskMaster",
   "Steganography",
@@ -18,17 +20,19 @@ const intro = [
 ];
 
 const descriptions = [
-  "Full-stack web application that engages with NASA Mars rovers APIs. <br><i> Tech Stack</i> : Spring Boot, React, MySQL, Hibernate <br> <i>Languages/Tools</i> : Java, Javascript, SQL, HTML, CSS",
-  "Full-stack web application that helps users plan careers and track application progress <br><i> Tech Stack</i> : Express.js, Node.js, MongoDB <br> <i> Languages/Tools</i> : Javascript, HTML, CSS",
-  "React to-do list web application with history-query feature <br><i> Tech Stack</i> : React, Minimongo <br> </i>Languages/Tools</i> : Javascript, HTML, CSS",
-  "Full-stack web application that encodes secret messages in images using LSB pixel encryption <br><i> Tech Stack</i> : Spring Boot, React, MySQL, Hibernate <br> <i>Languages/Tools</i> : Java, Javascript, SQL, HTML, CSS",
-  "React e-commerce web application <br><i> Tech Stack</i> : React <br><i> Languages/Tools</i> : Javascript, HTML, CSS ",
-  "Reactive programming project on Observablehq notebook <br><i> Languages/Tools</i> : Observable notebook, Javascript, HTML",
-  "Decentralized full-stack web application for users to create/mint/trade NFTs <br><i> Tech Stack</i> : React, Hardhat, Meter Sidechain, Ethereum, IPFS <br><i> Languages/Tools</i> : Solidity, Javascript, Ethers.js, HTML, CSS",
+  "Full-stack web application that engages with NASA Mars rovers APIs. <br> Tech Stack : Spring Boot, React, MySQL, Hibernate <br> Languages/Tools : Java, Javascript, SQL, HTML, CSS",
+  "MERN stack web application that helps students match with tutors. <br> Tech Stack : React, Express.js, Node.js, MongoDB <br> Languages/Tools : Javascript, HTML, CSS",
+  "Full-stack web application that helps users plan careers and track application progress <br> Tech Stack : Express.js, Node.js, MongoDB <br>  Languages/Tools : Javascript, HTML, CSS",
+  "React to-do list web application with history-query feature <br> Tech Stack : React, Minimongo <br> Languages/Tools : Javascript, HTML, CSS",
+  "Full-stack web application that encodes secret messages in images using LSB pixel encryption <br> Tech Stack : Spring Boot, React, MySQL, Hibernate <br> Languages/Tools : Java, Javascript, SQL, HTML, CSS",
+  "React e-commerce web application <br> Tech Stack : React <br> Languages/Tools : Javascript, HTML, CSS ",
+  "Reactive programming project on Observablehq notebook <br> Languages/Tools : Observable notebook, Javascript, HTML",
+  "Decentralized full-stack web application for users to create/mint/trade NFTs <br> Tech Stack : React, Hardhat, Meter Sidechain, Ethereum, IPFS <br><i> Languages/Tools</i> : Solidity, Javascript, Ethers.js, HTML, CSS",
 ];
 
 const links = [
   "https://github.com/CS5500-NEU-Group10/NASA-Mars-Rover",
+  "https://github.com/yianan261/Tutor-Match-App",
   "https://github.com/yianan261/Career_Helper_App",
   "https://github.com/yianan261/taskmaster-app",
   "https://github.com/veraxpq/graph_encryption_backend",

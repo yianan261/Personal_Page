@@ -45,11 +45,14 @@ nav.scrolled {
 }
 
 .project-div {
-  display: flex;
-  justify-content: center;
+  /* display: block;
+  justify-content: center; */
   padding-top: 10%;
 }
-
+.carousel {
+  display: flex;
+  justify-content: center;
+}
 #carousel-img {
   width: 70vw;
   height: 60vh;
@@ -102,7 +105,8 @@ nav.scrolled {
 
 .text-about-project {
   display: block;
-  align-items: center;
+  transform: translateX(15vw);
+  width: 50rem;
 }
 
 #about-project {
@@ -114,19 +118,16 @@ nav.scrolled {
 }
 
 #about-description {
-  width: 50rem;
-  margin-left: auto;
-  margin-right: auto;
-  text-align: center;
+  /* width: 20rem; */
   font-weight: 200;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   color: #564430;
-  font-size: 20px;
+  font-size: 17px;
 }
 
 .text-description {
-  width: 60%;
+  /* width: 60%; */
   font-weight: 200;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
