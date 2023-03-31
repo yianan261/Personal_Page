@@ -1,4 +1,5 @@
 const images = [
+  "starts.jpg",
   "mars.jpg",
   "tutorApp.png",
   "career.png",
@@ -9,6 +10,7 @@ const images = [
   "milky.jpg",
 ];
 const intro = [
+  "Starts Foundation",
   "Mars Roverland",
   "Tutor Match App",
   "Career Helper App",
@@ -20,6 +22,7 @@ const intro = [
 ];
 
 const descriptions = [
+  "Website built for the Starts Foundation of Nepal. <br> Tech Stack : Gatsby, React <br> Languages/Tools : Javascript, Sanity, GraphQL, CSS",
   "Full-stack web application that engages with NASA Mars rovers APIs. <br> Tech Stack : Spring Boot, React, MySQL, Hibernate <br> Languages/Tools : Java, Javascript, SQL, HTML, CSS",
   "MERN stack web application that helps students match with tutors. <br> Tech Stack : React, Express.js, Node.js, MongoDB <br> Languages/Tools : Javascript, HTML, CSS",
   "Full-stack web application that helps users plan careers and track application progress <br> Tech Stack : Express.js, Node.js, MongoDB <br>  Languages/Tools : Javascript, HTML, CSS",
@@ -31,6 +34,7 @@ const descriptions = [
 ];
 
 const links = [
+  "https://github.com/yianan261/StartsFoundation",
   "https://github.com/CS5500-NEU-Group10/NASA-Mars-Rover",
   "https://github.com/yianan261/Tutor-Match-App",
   "https://github.com/yianan261/Career_Helper_App",
@@ -117,7 +121,7 @@ let moveLeft = () => {
 prev.addEventListener("click", () => moveLeft());
 
 window.addEventListener("keydown", (evt) => {
-  // console.log("keydown event ", evt);
+  
   if (evt.key === "ArrowLeft") {
     moveLeft();
   }

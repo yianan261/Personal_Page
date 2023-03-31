@@ -10,7 +10,7 @@ body {
 
 .navbar-brand,
 .nav-link {
-  color: #deb489;
+  color: #4a2500;
   padding-left: 5%;
   font-smooth: auto;
   -webkit-font-smoothing: antialiased;
@@ -19,12 +19,12 @@ body {
 
 .navbar-brand {
   font-size: 5em;
-  font-weight: 2;
+  font-weight: 300;
   padding-right: 3%;
 }
 
 .navbar-brand:hover {
-  color: #deb489;
+  color: #9b7d60;
 }
 .nav-link {
   font-size: 2rem;
@@ -34,7 +34,11 @@ body {
 }
 
 .nav-link:hover {
-  color: #b98c5f;
+  color: #65281797;
+  transform: scale(1.05, 1.05);
+  text-decoration: underline;
+  text-underline-offset: 1rem;
+  text-decoration-thickness: 0.15rem;
 }
 nav {
   transition: background 0.5s; /* control how smooth the background changes */
@@ -54,7 +58,7 @@ nav.scrolled {
   justify-content: center;
 }
 #carousel-img {
-  width: 70vw;
+  width: 60vw;
   height: 60vh;
   border-radius: 10px 10px 10px 10px;
 }
@@ -81,7 +85,7 @@ nav.scrolled {
 }
 
 #forward {
-  color: #d4a373;
+  color: #321b00;
   display: flex;
   align-self: center;
   padding-left: 5px;
@@ -92,10 +96,14 @@ nav.scrolled {
   color: #e6ad9f;
 }
 #backward {
-  color: #d4a373;
+  color: #321b00;;
   display: flex;
   align-self: center;
   padding-left: 5px;
+}
+.project-div {
+  display: grid;
+  grid-template-rows: 1fr 0.4fr;
 }
 
 #backward:hover {
@@ -104,26 +112,29 @@ nav.scrolled {
 }
 
 .text-about-project {
-  display: block;
-  transform: translateX(15vw);
-  width: 50rem;
+  display: flex;
+  flex-direction: column;
+  text-align: start;
+  margin-left: 20%;
+
+  /* align-items: center; */
 }
 
 #about-project {
-  font-weight: 200;
+  font-weight: 300;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  color: #564430;
+  color: #321b00;
   padding-top: 2%;
 }
 
 #about-description {
   /* width: 20rem; */
-  font-weight: 200;
+  font-weight: 300;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  color: #564430;
-  font-size: 17px;
+  color: #321b00;
+  font-size: 1.1em;
 }
 
 .text-description {
