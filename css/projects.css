@@ -10,7 +10,7 @@ body {
 
 .navbar-brand,
 .nav-link {
-  color: #4a2500;
+  color: #603000;
   padding-left: 5%;
   font-smooth: auto;
   -webkit-font-smoothing: antialiased;
@@ -34,7 +34,7 @@ body {
 }
 
 .nav-link:hover {
-  color: #65281797;
+  color: #9b7d60;
   transform: scale(1.05, 1.05);
   text-decoration: underline;
   text-underline-offset: 1rem;
@@ -85,7 +85,7 @@ nav.scrolled {
 }
 
 #forward {
-  color: #321b00;
+  color: #603000;
   display: flex;
   align-self: center;
   padding-left: 5px;
@@ -96,7 +96,7 @@ nav.scrolled {
   color: #e6ad9f;
 }
 #backward {
-  color: #321b00;;
+  color: #603000;
   display: flex;
   align-self: center;
   padding-left: 5px;
@@ -134,7 +134,7 @@ nav.scrolled {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   color: #321b00;
-  font-size: 1.1em;
+  font-size: 1.2em;
 }
 
 .text-description {
