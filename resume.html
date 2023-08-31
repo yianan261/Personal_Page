@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="contact" content="Yian Chen Resume">
+    <meta name="author" content="Yian Chen Personal Page">
+    <!--Icon-->
+    <link rel="icon" href="./images/Y.png" />
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Sans&family=Open+Sans:wght@300&family=Poppins:wght@100;200;400&display=swap"
+        rel="stylesheet">
+    <!--Bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous" />
+    <!--CSS-->
+    <link rel="stylesheet" href="./css/resume.css" />
+    <title>Yian Chen Resume</title>
+</head>
+
+<body>
+    <nav id="mainNavbar" class="navbar navbar-dark navbar-expand-md fixed-top">
+        <h1 class="navbar-brand">RESUME</h1>
+        <button class="navbar-toggler" data-toggle="collapse" data-target="#navLinks" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navLinks">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a href="index.html" class="nav-link">HOME</a>
+                </li>
+                <li class="nav-item">
+                    <a href="about.html" class="nav-link">ABOUT</a>
+                </li>
+                <li class="nav-item">
+                    <a href="projects.html" class="nav-link">PROJECTS</a>
+                </li>
+                <li class="nav-item">
+                    <a href="resume.html" class="nav-link">RESUME</a>
+                </li>
+                <li class="nav-item">
+                    <a href="contact.html" class="nav-link">CONTACT</a>
+                </li>
+            </ul>
+        </div>
+        <script src="./JS/nav.js"></script>
+    </nav>
+    <div class="container-fluid">
+        <div class="inner">
+            <section>
+                <h1>EDUCATION</h1>
+                <h2>Northeastern University <span class="date"><em>Jan 2022 - May 2024 (Expected) | San Jose,
+                            CA</em></span> </h2>
+                <p>M.S. Computer Science | GPA: 4.0/4.0</p>
+                <br>
+                <h1>WORK EXPERIENCE</h1>
+                <h2>Amazon <span class="date"><em>May 2023 – Aug 2023 | San Francisco, CA</em></span> </h2>
+                <p>Software Development Engineer Intern
+                <ul>
+                    <li>
+                        Designed and implemented the end-to-end workflow that automated flagging problematic vendor
+                        data
+                    </li>
+                    <li>
+                        Aggregated daily Amazon Music data using Apache Spark in Scala to write output to AWS S3 through
+                        EMR serverless
+                    </li>
+                    <li>
+                        Designed GET and WRITE RPC APIs using dependency-injection design patterns and efficient data
+                        structures
+                    </li>
+                    <li>
+                        Defined APIs with Smithy models, accessed data using object relational mapping, managed database
+                        with Liquibase, and
+                        utilized AWS tools to write daily-streamed data from Amazon Music services to central database
+                        and flag ineligible data
+                    </li>
+                    <li>
+                        Automated the end-to-end process of big data aggregation to API-service invocation by building
+                        directed acyclic graphs
+                        structure using Apache Airflow task orchestrator
+                    </li>
+                </ul>
+                </p>
+                <br>
+                <h2>Starts Foundation <span class="date"><em>Oct 2022 – present | Remote</em></span> </h2>
+                <p>Full-stack Developer, Project Leader
+                <ul>
+                    <li>
+                        Planned and lead a team of five to develop and maintain the official website for the Starts
+                        Foundation using Gatsby,
+                        Node.js, Express.js, React, MongoDB, and GraphQL to spread awareness, recruit volunteers, and
+                        raise money to help serve
+                        marginalized and underserved communities in Nepal
+                    </li>
+                    <li>Built a Content Management System by designing schemas using the Sanity framework to streamline
+                        user
+                        experience</li>
+                </ul>
+                </p>
+                <br>
+                <h1>HACKATHON</h1>
+                <h2>Meter Ethereum Hackathon - Milky Way <span class="date"><em>2022 Feb – 2022 April</em></span> </h2>
+                <p> Decentralized web app for users to create/mint/trade NFTs
+                <ul>
+                    <li>
+                        Tested and deployed smart contract to the Meter chain using Hardhat and Infura APIs for JSON
+                        RPCs resulting in up to
+                        60 times more transactions per second per node than the Ethereum blockchain
+                    </li>
+                    <li>
+                        Implemented smart contract with Solidity with functions based on the ERC721 standard for NFTs
+                        for secure transactions
+                    </li>
+                    <li>
+                        Enhanced user experience with React Hooks and Ethers.js for more interactions with contract
+                        functions on the
+                        blockchain
+                    </li>
+                    <li>
+                        Optimized security of archival storage with IPFS network to maintain decentralization and
+                        security of digital files
+                    </li>
+                </ul>
+                </p>
+                <br>
+                <h1>SELECTED PROJECTS</h1>
+                <h2>Cordiance Experiential Project<span class="date"><em>2022 Nov – 2022 Dec</em></span> </h2>
+                <p> Industry project that uses algorithm to find matches in large datasets
+                <ul>
+                    <li>
+                        Designed string matching algorithm to match separate data files from UNSPSC and Avalara Inc.
+                    </li>
+                    <li>
+                        Implemented 4-level prefix tree data structure to parse UNSPSC data, and implemented
+                        text-filtering functions to
+                        tokenize, filter, and stem meaningful prefixes for more accurate matchings
+                    </li>
+                    <li>
+                        Preprocessed data with Google Colab using Pandas, NumPy, and Natural Language Processing
+                        techniques and regular
+                        expression
+                    </li>
+                </ul>
+                </p>
+                <br>
+                <h2>Tutor Match App<span class="date"><em>2022 Oct – 2022 Oct</em></span> </h2>
+                <p> MERN stack web app for users to search and match tutors
+                <ul>
+                    <li>
+                        Created dynamic and responsive Node app using React, Express.js, and MongoDB with full CRUD
+                        operations
+                    </li>
+                    <li>
+                        Manipulated 1000+ data using Observable notebook to inject to MongoDB and designed
+                        non-relational, functional backend
+                        modules and RESTful APIs
+                    </li>
+                    <li>
+                        Iterated with Google Lighthouse and Deque Axe DevTools to improve usability and accessibility
+                    </li>
+                </ul>
+                </p>
+                <br>
+                <h2>Mars Roverland<span class="date"><em>2022 Jan – 2022 April</em></span> </h2>
+                <p> Full stack web app that generates engagement with NASA Mars rovers
+                <ul>
+                    <li>
+                        Built backend REST APIs with Java Spring Boot and dynamic and responsive frontend with React,
+                        CSS/SASS, and Three.js
+                        for 3D effects to enhance user-experience
+                    </li>
+                    <li>
+                        Implemented relational models with MySQL and Hibernate, JDBC for object-relational mapping and
+                        query
+                    </li>
+                </ul>
+                </p>
+            </section>
+            <section>
+                <h1>Programming Languages</h1>
+                <ul class="skill-set">
+                    <li>Java</li>
+                    <li>Python</li>
+                    <li>Javascript</li>
+                    <li>Kotlin</li>
+                    <li>C</li>
+                    <li>C++</li>
+                    <li>Scala</li>
+                    <li>Solidity</li>
+                    <li>SQL</li>
+                    <li>GraphQL</li>
+                </ul>
+                <p>and more because I can learn fast!</p>
+            </section>
+            <section>
+                <h1>Database</h1>
+                <ul class="skill-set">
+                    <li>MongoDB</li>
+                    <li>PostgreSQL</li>
+                    <li>Redis</li>
+                    <li>MySQL</li>
+                    <li>Amazon Aurora</li>
+                </ul>
+            </section>
+            <section>
+                <h1>Frameworks and Tools</h1>
+                <ul class="skill-set">
+                    <li>AWS</li>
+                    <li>Docker</li>
+                    <li>Apache Spark</li>
+                    <li>Apache Airflow</li>
+                    <li>Liquibase</li>
+                    <li>React.js</li>
+                    <li>Spring Boot</li>
+                    <li>Google Guice</li>
+                    <li>Maven</li>
+                    <li>Gradle</li>
+                    <li>Gatsby</li>
+                    <li>Express.js</li>
+                    <li>Git</li>
+                </ul>
+            </section>
+        </div>
+    </div>
+
+</body>
+
+</html>

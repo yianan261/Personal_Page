@@ -1,0 +1,149 @@
+body {
+  background: #faedcd;
+}
+
+* {
+  font-family: "Poppins", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.navbar-brand,
+.nav-link {
+  color: #603000;
+  padding-left: 5%;
+  font-smooth: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.navbar-brand {
+  font-size: 5em;
+  font-weight: 300;
+  padding-right: 3%;
+}
+
+.navbar-brand:hover {
+  color: #9b7d60;
+}
+.nav-link {
+  font-size: 2rem;
+  font-weight: 200;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.nav-link:hover {
+  color: #65281797;
+  transform: scale(1.05, 1.05);
+  text-decoration: underline;
+  text-underline-offset: 1rem;
+  text-decoration-thickness: 0.15rem;
+}
+nav {
+  transition: background 0.5s; /* control how smooth the background changes */
+}
+
+nav.scrolled {
+  background: #fefae0;
+}
+
+.inner {
+  padding-top: 30%;
+  margin: 0 auto;
+  max-width: 975px;
+  padding: 3em;
+}
+
+.inner h1 {
+  color: #603000;
+  font-weight: 300;
+  text-decoration: underline;
+  text-underline-offset: 8px;
+  text-decoration-thickness: 2px;
+  padding-bottom: 3%;
+}
+
+.inner h2 {
+  font-size: 1.7em;
+  font-weight: 300;
+}
+
+.inner p {
+  color: rgba(0, 0, 0, 1);
+  font-size: 1.2em;
+}
+
+.date {
+  float: right;
+}
+
+.inner em {
+  font-size: 0.7em;
+  color: rgba(0, 0, 0, 0.7);
+  font-style: normal;
+}
+
+.inner section {
+  margin: 100px auto;
+}
+
+ul.skill-set {
+  list-style-type: none;
+  margin-top: -10px;
+  max-width: 570px;
+  padding: 0;
+}
+
+.skill-set li {
+  background: #65281797;
+  border-radius: 5px;
+  color: #fff;
+  display: inline-block;
+  list-style: none;
+  margin: 15px 15px 0 0;
+  padding: 10px;
+  text-align: justify;
+}
+
+@media screen and (max-width: 48em) {
+  .right,
+  .left {
+    float: none;
+    position: relative !important;
+    width: 100%;
+    min-height: 500px;
+  }
+  .handmade {
+    text-align: center !important;
+    margin-top: 0px !important;
+  }
+
+  @media screen and (max-width: 75em) {
+    body {
+      font-size: 16px;
+    }
+  }
+
+  @media screen and (max-width: 60em) {
+    body {
+      font-size: 14px;
+    }
+  }
+  .clearfix:after {
+    content: " "; /* Older browser do not support empty content */
+    visibility: hidden;
+    display: block;
+    height: 0;
+    clear: both;
+  }
+  .handmade {
+    text-align: right;
+    margin-top: 100px;
+  }
+  .handmade em {
+    font-family: "Shadows Into Light", cursive;
+    font-size: 1.25em;
+    margin-left: 5px;
+  }
+}

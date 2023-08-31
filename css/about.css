@@ -34,12 +34,11 @@ body {
 }
 
 .nav-link:hover {
- color: #65281797;
+  color: #65281797;
   transform: scale(1.05, 1.05);
   text-decoration: underline;
   text-underline-offset: 1rem;
   text-decoration-thickness: 0.15rem;
-  
 }
 
 .about-content {
@@ -54,10 +53,12 @@ body {
 }
 
 .p-intro {
-  padding: 5% 8% 8%;
+  padding-left: 8%;
+  padding-right: 8%;
   font-weight: 200;
   font-size: 20px;
   line-height: 30px;
+  text-align: left;
 }
 .img-fluid {
   position: relative;
@@ -109,4 +110,45 @@ nav.scrolled {
 #fact-text {
   font-weight: 200;
   font-size: 20px;
+}
+
+.hidden {
+  opacity: 0;
+  transition: opacity 1.5s ease-in-out;
+}
+
+.visible {
+  opacity: 1;
+  transition: opacity 1.5s ease-in-out;
+}
+
+.transition-fade {
+  opacity: 0;
+  transition: opacity 1.5s ease-in-out;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.fade-in-text {
+  animation: fadeIn 4s ease-in-out;
+}
+
+@keyframes fadeOut {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+
+.fade-out-text {
+  animation: fadeOut 4s ease-in-out;
 }

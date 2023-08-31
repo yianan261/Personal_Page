@@ -34,7 +34,7 @@ const descriptions = [
 ];
 
 const links = [
-  "www.startsfoundation.org",
+  "https://www.startsfoundation.org",
   "https://github.com/CS5500-NEU-Group10/NASA-Mars-Rover",
   "https://github.com/yianan261/Tutor-Match-App",
   "https://github.com/yianan261/Career_Helper_App",
