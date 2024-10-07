@@ -1,3 +1,4 @@
+/* Ensure body and common settings */
 body {
   background: #faedcd;
 }
@@ -8,13 +9,11 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+/* Navbar styling */
 .navbar-brand,
 .nav-link {
   color: #603000;
   padding-left: 5%;
-  font-smooth: auto;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
 }
 
 .navbar-brand {
@@ -26,11 +25,10 @@ body {
 .navbar-brand:hover {
   color: #9b7d60;
 }
+
 .nav-link {
   font-size: 2rem;
   font-weight: 200;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
 }
 
 .nav-link:hover {
@@ -41,30 +39,67 @@ body {
   text-decoration-thickness: 0.15rem;
 }
 
+/* Contact section title */
 .contact-title {
   font-size: 2rem;
   font-weight: 200;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
   color: #9f7a54;
 }
 
+/* Flexbox to center title */
 .contact-div {
   display: flex;
   justify-content: center;
   padding-top: 20%;
 }
 
+/* Flexbox for the block of icons */
 .block {
   display: flex;
   justify-content: center;
   padding-top: 2%;
 }
 
+/* Style for the icons */
 .LinkedIn-div,
 .Twitter-div,
 .GitHub-div,
 .Email-div {
   padding-left: 10px;
   padding-right: 10px;
+}
+
+/* Circle div around the icons */
+.LinkedIn-div a,
+.Twitter-div a,
+.GitHub-div a,
+.Email-div a {
+  display: inline-block;
+  width: 6em; /* Increase/decrease this for circle size */
+  height: 6em; /* Adjust for perfect circle */
+  border-radius: 50%;
+  background-color: #9f7a54; /* Background color for the circle */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+}
+
+/* Ensure the icons are smaller and centered */
+.LinkedIn-div img,
+.Twitter-div img,
+.GitHub-div img,
+.Email-div img {
+  width: 3.5em; /* Adjust for the icon size */
+  height: 3.5em; /* Maintain the same size for proportional scaling */
+  /* border-radius: 50%; */
+  object-fit: cover;
+}
+
+/* Icon hover effect */
+.LinkedIn-div a:hover,
+.Twitter-div a:hover,
+.GitHub-div a:hover,
+.Email-div a:hover {
+  background-color: #603000; /* Change background color on hover */
 }

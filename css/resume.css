@@ -1,13 +1,12 @@
+/* General Body Styling */
 body {
   background: #faedcd;
-}
-
-* {
   font-family: "Poppins", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
+/* Navbar Styling */
 .navbar-brand,
 .nav-link {
   color: #603000;
@@ -26,11 +25,10 @@ body {
 .navbar-brand:hover {
   color: #9b7d60;
 }
+
 .nav-link {
   font-size: 2rem;
   font-weight: 200;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
 }
 
 .nav-link:hover {
@@ -40,31 +38,67 @@ body {
   text-underline-offset: 1rem;
   text-decoration-thickness: 0.15rem;
 }
-nav {
-  transition: background 0.5s; /* control how smooth the background changes */
-}
 
+nav {
+  transition: background 0.5s;
+}
 nav.scrolled {
   background: #fefae0;
 }
 
-.inner {
-  padding-top: 30%;
-  margin: 0 auto;
-  max-width: 975px;
-  padding: 3em;
+/* Center PDF Buttons */
+.button-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px; /* Adds space between the buttons */
+  margin-top: 20px; /* Space from content above */
 }
 
-.inner h1 {
+/* Styling for the buttons */
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 16px;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.btn-primary {
+  background-color: #007bff;
+}
+
+.btn-secondary {
+  background-color: #6c757d;
+}
+
+.btn:hover {
+  background-color: #9b7d60;
+}
+
+/* Inner Section Styling */
+.inner {
+  padding-top: 10%;
+  margin: 0 auto;
+  max-width: 975px;
+  padding-left: 3em;
+  padding-right: 3em;
+}
+
+/* Headings */
+.inner h1,
+h2 {
   color: #603000;
   font-weight: 300;
   text-decoration: underline;
   text-underline-offset: 8px;
   text-decoration-thickness: 2px;
-  padding-bottom: 3%;
+  padding-bottom: 2%;
 }
 
-.inner h2 {
+.inner h3 {
   font-size: 1.7em;
   font-weight: 300;
 }
@@ -87,15 +121,48 @@ nav.scrolled {
 .inner section {
   margin: 100px auto;
 }
-
-ul.skill-set {
-  list-style-type: none;
-  margin-top: -10px;
-  max-width: 570px;
-  padding: 0;
+.resume_buttons {
+  display: flex;
+  justify-content: center; /* Centers buttons horizontally */
+  align-items: center; /* Aligns buttons vertically (if needed) */
+  gap: 20px; /* Adds space between buttons */
+  margin-top: 20px; /* Adds space above the buttons */
+  width: 100%; /* Makes sure the div takes full width */
+  margin-bottom: 5%;
 }
 
-.skill-set li {
+.skills-container {
+  display: flex;
+  flex-wrap: wrap; /* This ensures that the items wrap when needed */
+  justify-content: space-between; /* Evenly distributes space between the cards */
+  gap: 20px; /* Space between the cards */
+  margin: 20px auto; /* Centers the container and adds margin around it */
+  max-width: 1200px; /* Limits the width of the container to make it more compact */
+}
+
+.skill-card {
+  flex: 1 1 calc(33.33% - 40px); /* Each card takes up 1/3rd of the width with space for the gap */
+  background-color: white; /* Background color for the cards */
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+@media screen and (max-width: 1024px) {
+  .skill-card {
+    flex: 1 1 calc(50% - 40px); /* When screen size is smaller, show 2 cards per row */
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .skill-card {
+    flex: 1 1 100%; /* On small screens, each card takes up full width */
+  }
+}
+
+/* Style for the skill list buttons */
+.skill-list li {
   background: #65281797;
   border-radius: 5px;
   color: #fff;
@@ -103,9 +170,23 @@ ul.skill-set {
   list-style: none;
   margin: 15px 15px 0 0;
   padding: 10px;
-  text-align: justify;
+  transition: transform 0.2s ease-in-out; /* Smooth transition for movement */
 }
 
+/* Hover effect to move buttons */
+.skill-list li:hover {
+  transform: translateY(-10px); /* Moves the button 10px upwards on hover */
+  background-color: #9f7a54; /* Change background color on hover */
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2); /* Add shadow effect */
+}
+
+/* For a more dynamic effect, you can use different transform properties */
+.skill-list li:hover {
+  transform: rotate(10deg) scale(1.1); /* Rotate and scale on hover */
+  background-color: #9f7a54;
+}
+
+/* Additional media query adjustments for smaller screens */
 @media screen and (max-width: 48em) {
   .right,
   .left {
@@ -114,36 +195,12 @@ ul.skill-set {
     width: 100%;
     min-height: 500px;
   }
-  .handmade {
-    text-align: center !important;
-    margin-top: 0px !important;
-  }
 
-  @media screen and (max-width: 75em) {
-    body {
-      font-size: 16px;
-    }
-  }
-
-  @media screen and (max-width: 60em) {
-    body {
-      font-size: 14px;
-    }
-  }
   .clearfix:after {
-    content: " "; /* Older browser do not support empty content */
+    content: " ";
     visibility: hidden;
     display: block;
     height: 0;
     clear: both;
-  }
-  .handmade {
-    text-align: right;
-    margin-top: 100px;
-  }
-  .handmade em {
-    font-family: "Shadows Into Light", cursive;
-    font-size: 1.25em;
-    margin-left: 5px;
   }
 }
