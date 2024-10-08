@@ -22,7 +22,7 @@ const intro = [
 ];
 
 const descriptions = [
-  "Website built for the Starts Foundation of Nepal. <br> Tech Stack : Gatsby, React <br> Languages/Tools : Javascript, Sanity, GraphQL, CSS",
+  "Web app built for the Starts Foundation of Nepal. <br> Tech Stack : Gatsby, React <br> Languages/Tools : Javascript, Sanity, GraphQL, CSS",
   "Full-stack web application that engages with NASA Mars rovers APIs. <br> Tech Stack : Spring Boot, React, MySQL, Hibernate <br> Languages/Tools : Java, Javascript, SQL, HTML, CSS",
   "MERN stack web application that helps students match with tutors. <br> Tech Stack : React, Express.js, Node.js, MongoDB <br> Languages/Tools : Javascript, HTML, CSS",
   "Full-stack web application that helps users plan careers and track application progress <br> Tech Stack : Express.js, Node.js, MongoDB <br>  Languages/Tools : Javascript, HTML, CSS",

@@ -48,6 +48,9 @@ nav.scrolled {
   align-items: center;
   height: 100vh; /* Full viewport height */
   padding-top: 120px; /* Added space between navbar and content */
+  font-family: "Poppins", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 .about-col {
