@@ -1,20 +1,24 @@
 const images = [
+  "gemini.png",
+  "irresponsible_ai.png",
   "starts.jpg",
+  "energy_consumption.png",
   "mars.jpg",
   "tutorApp.png",
   "career.png",
-  "Taskmaster.jpg",
   "stego.jpg",
   "preorder.jpg",
   "pokemon.jpg",
   "milky.jpg",
 ];
 const intro = [
+  "Wander Finds with Gemini",
+  "Responsible AI",
   "Starts Foundation",
+  "Energy Consumption Prediction",
   "Mars Roverland",
   "Tutor Match App",
   "Career Helper App",
-  "TaskMaster",
   "Steganography",
   "Preorder Website",
   "Pokemon",
@@ -22,11 +26,13 @@ const intro = [
 ];
 
 const descriptions = [
+  "Mobile app with AI tour guide that personalizes place recommendations with Google Gemini. <br> Tech Stack: Flutter, Flask, Firestore, Firebase, Docker",
+  "Classification framework leveraging LLM to automate the aggregation and categorization of news incidents <br> Tech Stack: Python",
   "Web app built for the Starts Foundation of Nepal. <br> Tech Stack : Gatsby, React <br> Languages/Tools : Javascript, Sanity, GraphQL, CSS",
+  "Time Series Energy Consumption Prediction with Random Forest and Recurrent Neural Networks. <br> Topics: Data Mining, Machine Learning, Deep Learning, Data Analysis and Visualization, Feature Engineering",
   "Full-stack web application that engages with NASA Mars rovers APIs. <br> Tech Stack : Spring Boot, React, MySQL, Hibernate <br> Languages/Tools : Java, Javascript, SQL, HTML, CSS",
   "MERN stack web application that helps students match with tutors. <br> Tech Stack : React, Express.js, Node.js, MongoDB <br> Languages/Tools : Javascript, HTML, CSS",
   "Full-stack web application that helps users plan careers and track application progress <br> Tech Stack : Express.js, Node.js, MongoDB <br>  Languages/Tools : Javascript, HTML, CSS",
-  "React to-do list web application with history-query feature <br> Tech Stack : React, Minimongo <br> Languages/Tools : Javascript, HTML, CSS",
   "Full-stack web application that encodes secret messages in images using LSB pixel encryption <br> Tech Stack : Spring Boot, React, MySQL, Hibernate <br> Languages/Tools : Java, Javascript, SQL, HTML, CSS",
   "React e-commerce web application <br> Tech Stack : React <br> Languages/Tools : Javascript, HTML, CSS ",
   "Reactive programming project on Observablehq notebook <br> Languages/Tools : Observable notebook, Javascript, HTML",
@@ -34,11 +40,13 @@ const descriptions = [
 ];
 
 const links = [
+  "https://github.com/yianan261/GeminiCompetition_Backend",
+  "https://github.com/yianan261/IrresponsibleAI",
   "https://www.startsfoundation.org",
+  "https://colab.research.google.com/drive/11A7SQii5odsfnU4UW7SKvjsRxWDEIrbh",
   "https://github.com/CS5500-NEU-Group10/NASA-Mars-Rover",
   "https://github.com/yianan261/Tutor-Match-App",
   "https://github.com/yianan261/Career_Helper_App",
-  "https://github.com/yianan261/taskmaster-app",
   "https://github.com/veraxpq/graph_encryption_backend",
   "https://github.com/yianan261/Preorder-WebApp",
   "https://observablehq.com/@9cc44c8526ef498b/pokemon-pika-pika",
